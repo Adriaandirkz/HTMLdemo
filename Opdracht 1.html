@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+       function mijnfunctie(){
+        var voornaam = document.getElementById("invoerveld").value;
+        console.log(voornaam);
+
+        document.getElementById("uitvoer").innerHTML = "Welcom"+voornaam;
+        }
+    </script>
+</head>
+<body>
+    <input id="invoerveld">
+    <button onclick="mijnfunctie()">Klik hier</button>
+    <div id="uitvoer"></div>
+</body>
+</html>
